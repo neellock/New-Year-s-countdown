@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; /* Supprime toutes les marges par défaut */
+    font-family: 'Raleway'; /* Applique la police Raleway */
+    min-height: 100vh; /* Hauteur minimum de l'écran */
+    background-image: url('images/hiver.jpg'); /* Image d'arrière-plan */
+    align-items: center;
+    justify-content: center;
+    display : flex ;
+    flex-direction : column ;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+
+.big-texte {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.compteur-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Espace entre les conteneurs */
+  }
+.compteur-elt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compteur-elt span {
+        font-size: 1.5rem;
+}
+
+
+/*Ajouter le sélecteur pour la balise h1. Fixer la taille de la police d’écriture à
+4rem ainsi que la marge supérieure à 5rem. La police doit s’afficher
+normalement (pas de gras, d’italique ou autre mise en forme particulière)
+3. Ajouter le sélecteur pour la classe « compteur-container », lui associer un
+affichage flexible.
+4. Ajouter le sélecteur pour la classe « big-texte ». Les propriétés associées
+sont les suivantes :
+- La taille de la police d’écriture est de 6rem et est en caractère gras,
+- La hauteur de ligne est fixée à 1
+- La marge verticale est fixée à 1rem et la marge horizontale à 2rem.
+5. Ajouter le sélecteur pour la classe « compteur-elt ».
+Faire en sorte que le texte contenu dans les balises, ayant ces classes
+comme attributs, soit centré.
+6. Ajouter le sélecteur pour les balises span situées dans les balises ayant pour
+classe « compteur-elt ». Fixer la taille de la police d’écriture à 1.5rem.
